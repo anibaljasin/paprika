@@ -38,7 +38,7 @@ module.exports = {
     mainnet: {
       provider: function () {
         // Setting the provider with the Infura Mainnet address and Token
-        return new HDWalletProvider(mnemonic, "https://apis-sj.ankr.com/d7a657289e2e4d3d993e5bc0bc9da64f/4df019b12075d0541421b099bd9ca2b8/binance/full/main")
+        return new HDWalletProvider(mnemonic, "https://bsc-dataseed.binance.org/")
       },
       network_id: 56
     },
